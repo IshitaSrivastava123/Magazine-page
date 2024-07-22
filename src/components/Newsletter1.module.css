@@ -1,0 +1,168 @@
+.subscribeForNewsletter {
+  width: 318px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.newsletterTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-503xl);
+}
+.vivahSahyog {
+  width: 418px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.emailSubscribeLabelsChild {
+  height: 51px;
+  width: 417px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.email {
+  width: 59px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.emailSubscribeLabels {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl) var(--padding-2xs);
+  min-width: 59px;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+}
+.emailSubscribeLabelsItem {
+  height: 51px;
+  width: 125px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-firebrick-200);
+  display: none;
+}
+.subscribe {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.emailSubscribeLabels1 {
+  width: 125px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-firebrick-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-2xs) var(--padding-base)
+    var(--padding-sm);
+  box-sizing: border-box;
+  z-index: 1;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.emailSubscribeFields {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.emailSubscribe,
+.emailSubscribeFields,
+.footerContent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.emailSubscribe {
+  width: 568px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-silver);
+}
+.footerContent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.itemPriceWrapperPlaceholder,
+.newsletter {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.itemPriceWrapperPlaceholder {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.newsletter {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1275px) {
+  .footerContent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .newsletterTitle {
+    padding-left: var(--padding-242xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .emailSubscribeFields {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .subscribeForNewsletter {
+    font-size: var(--font-size-lgi);
+  }
+  .newsletterTitle {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .vivahSahyog {
+    font-size: var(--font-size-lgi);
+  }
+}

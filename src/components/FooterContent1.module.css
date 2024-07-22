@@ -1,0 +1,332 @@
+.untitledDesign5414 {
+  align-self: stretch;
+  height: 66px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.untitledDesign5414Wrapper {
+  height: 270px;
+  width: 307px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-19xl) 0 0;
+  box-sizing: border-box;
+}
+.aboutUs,
+.ourCompetition {
+  position: relative;
+  z-index: 1;
+}
+.aboutUs {
+  width: 121px;
+  font-weight: 500;
+  display: inline-block;
+}
+.ourCompetition {
+  align-self: stretch;
+}
+.channels {
+  width: 120px;
+  display: inline-block;
+}
+.channels,
+.scale,
+.watchTheDemo {
+  position: relative;
+  z-index: 1;
+}
+.scale {
+  display: inline-block;
+  min-width: 70px;
+}
+.watchTheDemo {
+  align-self: stretch;
+}
+.searchInput {
+  align-self: stretch;
+  gap: var(--gap-5xl-5);
+}
+.heroButtons,
+.ourCompetitionParent,
+.searchInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ourCompetitionParent {
+  align-self: stretch;
+  gap: var(--gap-3xl);
+  color: var(--color-gray-300);
+}
+.heroButtons {
+  flex: 1;
+  gap: var(--gap-18xl);
+  min-width: 136px;
+}
+.products {
+  width: 117px;
+  font-weight: 500;
+  display: inline-block;
+}
+.features,
+.integrations,
+.products {
+  position: relative;
+  z-index: 1;
+}
+.features {
+  width: 111px;
+  display: inline-block;
+}
+.integrations {
+  align-self: stretch;
+}
+.enterprise,
+.solutions {
+  width: 130px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.solutions {
+  width: 118px;
+}
+.featuresIntegrationsSolution {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-4xl-7);
+  color: var(--color-gray-300);
+}
+.featuresIntegrationsSolution,
+.heroButtonsParent,
+.productsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productsParent {
+  width: 153px;
+  flex-direction: column;
+  gap: var(--gap-18xl);
+  min-width: 153px;
+}
+.heroButtonsParent {
+  width: 399px;
+  flex-direction: row;
+  gap: var(--gap-17xl);
+  max-width: 100%;
+}
+.image5Icon,
+.image6Icon,
+.instagramIcon,
+.linkedinIcon {
+  height: 35px;
+  width: 35px;
+  position: relative;
+  object-fit: cover;
+  min-height: 35px;
+  z-index: 1;
+}
+.instagramIcon,
+.linkedinIcon {
+  width: 34px;
+}
+.instagramIcon {
+  width: 35px;
+}
+.productItemContainer {
+  width: 290px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.partners,
+.resources {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.resources {
+  width: 136px;
+  font-weight: 500;
+}
+.partners {
+  width: 109px;
+}
+.community,
+.developers {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.apps {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+  z-index: 1;
+}
+.actionDetails,
+.innerItemDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.actionDetails {
+  align-self: stretch;
+  gap: var(--gap-4xl-7);
+  color: var(--color-gray-300);
+}
+.innerItemDetails {
+  width: 146px;
+  gap: var(--gap-18xl);
+  min-width: 146px;
+}
+.company {
+  width: 124px;
+  font-weight: 500;
+  display: inline-block;
+}
+.aboutUs1,
+.company,
+.leadership {
+  position: relative;
+  z-index: 1;
+}
+.aboutUs1 {
+  width: 120px;
+  display: inline-block;
+}
+.leadership {
+  align-self: stretch;
+}
+.aboutUsLeadership {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.news {
+  width: 73px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.companyContent,
+.itemDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.companyContent {
+  align-self: stretch;
+  gap: var(--gap-6xl);
+  color: var(--color-gray-300);
+}
+.itemDescription {
+  width: 142px;
+  gap: var(--gap-18xl);
+  min-width: 142px;
+}
+.resourcesContent,
+.resourcesContentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.resourcesContent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.resourcesContentWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mid) 0 0;
+  box-sizing: border-box;
+}
+.footerContent,
+.productItemContainerParent {
+  width: 417px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-47xl);
+  max-width: 100%;
+}
+.footerContent {
+  width: 1301px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1275px) {
+  .footerContent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutUs,
+  .channels,
+  .enterprise,
+  .features,
+  .integrations,
+  .ourCompetition,
+  .products,
+  .scale,
+  .solutions,
+  .watchTheDemo {
+    font-size: var(--font-size-lgi);
+  }
+  .productsParent {
+    flex: 1;
+  }
+  .heroButtonsParent {
+    flex-wrap: wrap;
+    gap: var(--gap-lg);
+  }
+  .apps,
+  .community,
+  .developers,
+  .partners,
+  .resources {
+    font-size: var(--font-size-lgi);
+  }
+  .innerItemDetails {
+    flex: 1;
+  }
+  .aboutUs1,
+  .company,
+  .leadership,
+  .news {
+    font-size: var(--font-size-lgi);
+  }
+  .itemDescription {
+    flex: 1;
+  }
+  .resourcesContent {
+    flex-wrap: wrap;
+  }
+  .productItemContainerParent {
+    gap: var(--gap-14xl);
+  }
+}

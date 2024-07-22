@@ -1,0 +1,370 @@
+.login {
+  height: 56px;
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 52px;
+  padding: 0;
+}
+.chevronDownIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: auto;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.chevronDropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+}
+.loginParent {
+  width: 111px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.leftSidebar,
+.loginParent,
+.nominateButton {
+  display: flex;
+  align-items: flex-start;
+}
+.leftSidebar {
+  margin-top: -476px;
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 277px 326px var(--padding-xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+  font-family: var(--font-lemonada);
+}
+.nominateButton {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  min-width: 164px;
+  cursor: pointer;
+}
+.subscribeButtonChild {
+  height: 55px;
+  width: 252px;
+  position: relative;
+  background-color: var(--color-red);
+  display: none;
+}
+.subscribe {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.buttons,
+.callToAction,
+.subscribeButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.subscribeButton {
+  background-color: var(--color-red);
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-22xl) var(--padding-5xs);
+}
+.buttons,
+.callToAction {
+  max-width: 100%;
+}
+.buttons {
+  width: 531px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 27px;
+}
+.callToAction {
+  width: 715px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.whiteBlackModernWeddingMag {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.whiteBlackModernWeddingMagWrapper {
+  height: 518px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.icon,
+.icon1 {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 518px;
+}
+.desktop1Inner,
+.frameParent {
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1257px;
+  display: grid;
+  justify-content: flex-start;
+  gap: var(--gap-60xl);
+  grid-template-columns: repeat(3, minmax(279px, 1fr));
+}
+.desktop1Inner {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.desktop1Child {
+  width: 135px;
+  height: 49px;
+  position: relative;
+  background-color: transparent;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+}
+.darkBrownBoldModernCreativ {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.darkBrownBoldModernCreativWrapper {
+  height: 519px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.icon2,
+.icon3 {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 519px;
+}
+.icon3 {
+  min-height: 518px;
+}
+.frameGroup,
+.frameSection {
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 1257px;
+  display: grid;
+  justify-content: flex-start;
+  gap: var(--gap-60xl);
+  grid-template-columns: repeat(3, minmax(279px, 1fr));
+}
+.frameSection {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.yellowBrownModernRomanticW {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.yellowBrownModernRomanticWWrapper {
+  height: 518px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.containerIcon,
+.icon4 {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 518px;
+}
+.desktop1Inner1,
+.frameContainer {
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameContainer {
+  width: 1257px;
+  display: grid;
+  justify-content: flex-start;
+  gap: var(--gap-60xl);
+  grid-template-columns: repeat(3, minmax(279px, 1fr));
+}
+.desktop1Inner1 {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 46px var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.footerChild {
+  width: 1440px;
+  height: 686px;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  display: none;
+  max-width: 100%;
+}
+.desktop1,
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke);
+  align-items: flex-start;
+  padding: var(--padding-18xl) 45px var(--padding-83xl) var(--padding-47xl);
+  gap: var(--gap-80xl);
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.desktop1 {
+  width: 100%;
+  height: 2906px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: var(--padding-10xl) 0 0;
+  gap: 94px;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1100px) {
+  .frameContainer,
+  .frameGroup,
+  .frameParent {
+    grid-template-columns: repeat(2, minmax(279px, 484px));
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .subscribe {
+    font-size: var(--font-size-5xl);
+  }
+  .icon,
+  .icon1 {
+    width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-20xl);
+    grid-template-columns: minmax(279px, 1fr);
+  }
+  .icon2,
+  .icon3 {
+    width: 100%;
+  }
+  .frameGroup {
+    gap: var(--gap-20xl);
+    grid-template-columns: minmax(279px, 1fr);
+  }
+  .containerIcon,
+  .icon4 {
+    width: 100%;
+  }
+  .frameContainer {
+    gap: var(--gap-20xl);
+    grid-template-columns: minmax(279px, 1fr);
+  }
+  .desktop1Inner1 {
+    padding-bottom: 30px;
+    box-sizing: border-box;
+  }
+  .footer {
+    gap: var(--gap-30xl);
+    padding: var(--padding-5xl) 22px var(--padding-47xl) var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .desktop1 {
+    gap: 47px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login {
+    font-size: 22px;
+  }
+  .leftSidebar {
+    padding-right: var(--padding-xl);
+    padding-bottom: 212px;
+    box-sizing: border-box;
+  }
+  .subscribe {
+    font-size: var(--font-size-lg);
+  }
+  .frameContainer,
+  .frameGroup,
+  .frameParent {
+    gap: var(--gap-xl);
+  }
+  .footer {
+    gap: var(--gap-6xl);
+  }
+  .desktop1 {
+    height: auto;
+    gap: var(--gap-4xl);
+  }
+}

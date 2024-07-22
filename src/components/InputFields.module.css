@@ -1,0 +1,151 @@
+.class {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 81px;
+}
+
+.credentials {
+  border: 0;
+  background-color: transparent;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  flex: 10;
+  position: relative;
+  display: inline-block;
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-2xl);
+  min-width: 250px;
+  max-width: 100%;
+  align-items: first baseline;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.credentials #email {
+  padding: 10px;
+  font-size: small;
+  flex-direction: column;
+  gap: var(--gap-43xl);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+
+.technologies {
+  border: 0;
+  background-color: transparent;
+  height: 70px;
+  flex: 10;
+  width: 200px;
+  position: absolute;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  min-width: 250px;
+  max-width: 100%;
+  align-items: first baseline;
+}
+.inputLabels,
+.technologiesWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.technologiesWrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.inputLabels {
+  flex-direction: column;
+  gap: var(--gap-2xl);
+}
+.budget {
+  position: relative;
+  font-weight: 600;
+}
+.xiv,
+.xivWrapper {
+  flex: 1;
+  box-sizing: border-box;
+}
+.xiv {
+  align-self: stretch;
+  position: relative;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  border: 1px solid var(--color-black);
+  max-width: 100%;
+}
+.xivWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+}
+.inputLabels1,
+.wrapper,
+.xivWrapper {
+  align-self: stretch;
+  max-width: 100%;
+}
+.inputLabels1 {
+  height: 127px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.wrapper {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+  font-family: var(--font-inter);
+  font-weight: 600;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+}
+.inputFields,
+.inputLabels2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputLabels2 {
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.inputFields {
+  flex-direction: column;
+  gap: var(--gap-43xl);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .class,
+  .yourBudget {
+    font-size: var(--font-size-5xl);
+  }
+  .inputFields {
+    gap: var(--gap-12xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .class,
+  .yourBudget {
+    font-size: var(--font-size-lg);
+  }
+  .inputFields {
+    gap: var(--gap-mini);
+  }
+}

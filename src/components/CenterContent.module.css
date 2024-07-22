@@ -1,0 +1,172 @@
+.frameChild {
+  height: 61px;
+  width: 233px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+}
+.untitledDesign5412 {
+  height: 51.4px;
+  width: 214.6px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.rectangleParent {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-8) var(--padding-5xs) var(--padding-8xs-8)
+    var(--padding-4xs);
+}
+.magazine {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+}
+.magazineLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-10xs) 0 0;
+}
+.register {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-lemonada);
+  color: var(--color-darkorange);
+  text-align: left;
+  display: inline-block;
+  min-width: 114px;
+}
+.navButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.help {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 63px;
+}
+.navButtons1 {
+  width: 87px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.browseMatches {
+  position: relative;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.navButtons2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xl) 0 0;
+}
+.biodata {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-lemonada);
+  color: var(--color-darkorange);
+  text-align: left;
+  display: inline-block;
+  min-width: 111px;
+}
+.biodataLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.loginDropdownFormselect {
+  width: 135px;
+  height: 56px;
+  position: relative;
+  font-family: var(--font-lemonada);
+  font-weight: 600;
+  font-size: var(--font-size-9xl);
+  color: var(--color-darkorange);
+}
+.navigation {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-25xl);
+}
+.centerContent,
+.mainContent,
+.navigation {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.mainContent {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-45xl);
+}
+.centerContent {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-23xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkorange);
+  font-family: var(--font-lemonada);
+}
+@media screen and (max-width: 1275px) {
+  .navigation {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navigation {
+    gap: var(--gap-3xl);
+  }
+  .mainContent {
+    gap: var(--gap-13xl);
+  }
+  .centerContent {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mainContent {
+    gap: var(--gap-base);
+  }
+}

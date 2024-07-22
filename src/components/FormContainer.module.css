@@ -1,0 +1,101 @@
+.onlineNominationForm {
+  position: relative;
+  font-weight: 600;
+}
+.languagesIcon {
+  height: 4px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.languagesWrapper,
+.onlineNominationFormParent,
+.title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.languagesWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.onlineNominationFormParent,
+.title {
+  flex-direction: column;
+}
+.onlineNominationFormParent {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.title {
+  width: 410px;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.footerChild {
+  height: 55px;
+  width: 252px;
+  position: relative;
+  background-color: var(--color-red);
+  display: none;
+}
+.subscribe {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.footer,
+.formContainer,
+.formHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.footer {
+  text-decoration: none;
+  height: 55px;
+  width: 252px;
+  background-color: var(--color-red);
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-22xl) var(--padding-5xs);
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.formContainer,
+.formHeader {
+  max-width: 100%;
+}
+.formHeader {
+  width: 835px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.formContainer {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .onlineNominationForm,
+  .subscribe {
+    font-size: var(--font-size-5xl);
+  }
+  .formHeader {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .onlineNominationForm,
+  .subscribe {
+    font-size: var(--font-size-lg);
+  }
+}

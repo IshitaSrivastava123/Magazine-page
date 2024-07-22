@@ -1,0 +1,175 @@
+.frameChild {
+  width: 233px;
+  position: relative;
+  background-color: var(--color-white);
+  height: 61px;
+  display: none;
+}
+.untitledDesign5412 {
+  height: 51.4px;
+  width: 214.6px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleParent {
+  height: 61px;
+  width: 233px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-8) var(--padding-5xs) var(--padding-8xs-8)
+    var(--padding-4xs);
+  box-sizing: border-box;
+}
+.magazine {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+}
+.magazineWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-10xs) 0 0;
+}
+.register {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 114px;
+}
+.registerHelpBrowseButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.help {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 63px;
+}
+.registerHelpBrowseButtons1 {
+  width: 87px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.browseMatches {
+  position: relative;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.registerHelpBrowseButtons2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xl) 0 0;
+}
+.biodata {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 111px;
+}
+.biodataWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.chevron,
+.login {
+  position: absolute;
+}
+.login {
+  top: 0;
+  left: 17px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 100px;
+  white-space: nowrap;
+}
+.chevron {
+  width: 135px;
+  display: flex;
+  flex-direction: column;
+  top: 4px;
+  left: 0;
+}
+.loginParent {
+  height: 56px;
+  width: 135px;
+  position: relative;
+  font-size: var(--font-size-9xl);
+}
+.registerHelpBrowse {
+  flex: 1;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-25xl);
+}
+.content,
+.registerHelpBrowse,
+.topNavigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.content {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-45xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkorange);
+  font-family: var(--font-lemonada);
+}
+.topNavigation {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-23xl) var(--padding-97xl) var(--padding-18xl);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1275px) {
+  .registerHelpBrowse {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .registerHelpBrowse {
+    gap: var(--gap-3xl);
+  }
+  .content {
+    gap: var(--gap-13xl);
+  }
+  .topNavigation {
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .content {
+    gap: var(--gap-base);
+  }
+}

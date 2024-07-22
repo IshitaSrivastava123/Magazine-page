@@ -1,0 +1,189 @@
+.subscribeForNewsletter {
+  width: 318px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.newsletterSubscription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-503xl);
+}
+.inputFieldsChild,
+.vivahSahyog {
+  position: relative;
+  max-width: 100%;
+}
+.vivahSahyog {
+  width: 418px;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.inputFieldsChild {
+  height: 51px;
+  width: 417px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.email {
+  width: 59px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-silver);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.inputFields,
+.inputFieldsItem {
+  height: 51px;
+  border-radius: var(--br-3xs);
+}
+.inputFields {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-100);
+  padding: var(--padding-xs) var(--padding-5xl) var(--padding-2xs);
+  background-color: var(--color-white);
+  flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 271px;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+}
+.inputFields:hover {
+  background-color: var(--color-gainsboro-100);
+  border: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+}
+.inputFieldsItem {
+  width: 125px;
+  position: relative;
+  background-color: var(--color-firebrick-200);
+  display: none;
+}
+.subscribe {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 2;
+}
+.emailInput,
+.inputFields1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputFields1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-2xs) var(--padding-base)
+    var(--padding-sm);
+  background-color: var(--color-firebrick-200);
+  height: 51px;
+  width: 125px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.inputFields1:hover {
+  background-color: var(--color-firebrick-100);
+}
+.emailInput {
+  align-self: stretch;
+  gap: var(--gap-7xl);
+  max-width: 100%;
+}
+.emailSubscription {
+  width: 568px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.copyright,
+.emailSubscription,
+.newsletter,
+.newsletterContent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.copyright {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.newsletter,
+.newsletterContent {
+  justify-content: flex-start;
+}
+.newsletterContent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.newsletter {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1275px) {
+  .copyright {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .newsletterSubscription {
+    padding-left: var(--padding-242xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .emailInput {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .subscribeForNewsletter {
+    font-size: var(--font-size-lgi);
+  }
+  .newsletterSubscription {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .vivahSahyog {
+    font-size: var(--font-size-lgi);
+  }
+  .email {
+    font-size: var(--font-size-base);
+  }
+}
